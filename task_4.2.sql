@@ -1,0 +1,4 @@
+CREATE TABLE subset_2 AS
+SELECT *
+FROM appl_score_sample
+WHERE "SEX" = 1 AND "STANDING_IN_MONTHS_LAST" > 50;
